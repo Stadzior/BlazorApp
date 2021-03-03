@@ -1,0 +1,23 @@
+@page "/fetchdata/{Date}"
+@inject HttpClient Http
+
+<h1>Forecast for @Date</h1>
+<table class="table">
+    <tr>
+        <th>Temperature &#8451;</th>
+        <th>@Forecast.TemperatureC</th>
+    </tr>
+    <tr>
+        <th>Temperature &#8457;</th>
+        <th>@Forecast.TemperatureF</th>
+    </tr>
+    <tr>
+        <th>Summary</th>
+        <th>@Forecast.Summary</th>
+    </tr>
+    <tr>
+        <th>Additional Info:</th>
+        <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</th>
+    </tr>
+</table> 
