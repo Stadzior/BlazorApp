@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using BlazorApp.Shared;
+using BlazorApp.Models;
 using Microsoft.AspNetCore.Components;
 
 namespace BlazorApp.Pages.ForecastComponents

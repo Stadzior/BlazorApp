@@ -1,0 +1,12 @@
+@page "/js"
+@inject IJSRuntime JSRuntime
+
+<div id="placeholder"></div>
+
+@code
+{    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JSRuntime.InvokeVoidAsync("hello.Hello");
+    }
+}
