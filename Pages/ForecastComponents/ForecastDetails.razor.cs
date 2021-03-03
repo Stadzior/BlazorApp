@@ -4,9 +4,8 @@ using System.Threading.Tasks;
 using BlazorApp.Shared;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorApp.Pages
+namespace BlazorApp.Pages.ForecastComponents
 {
-    [Layout(typeof(CustomLayout))]
     public partial class ForecastDetails
     {
         public WeatherForecast Forecast { get; set; } = new WeatherForecast();
