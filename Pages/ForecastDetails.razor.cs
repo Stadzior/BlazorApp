@@ -1,10 +1,12 @@
 using System.Linq;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
+using BlazorApp.Shared;
 using Microsoft.AspNetCore.Components;
 
 namespace BlazorApp.Pages
 {
+    [Layout(typeof(CustomLayout))]
     public partial class ForecastDetails
     {
         public WeatherForecast Forecast { get; set; } = new WeatherForecast();
