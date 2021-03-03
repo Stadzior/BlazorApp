@@ -11,6 +11,9 @@ namespace BlazorApp.Pages
 
         [Parameter]
         public string Date { get; set; }
+
+        [Parameter]
+        public bool ShowDetails { get; set; }
         
         protected override async Task OnInitializedAsync()
         {

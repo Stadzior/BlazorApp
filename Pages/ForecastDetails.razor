@@ -1,4 +1,4 @@
-@page "/fetchdata/{Date}"
+@page "/fetchdata/{Date}/{ShowDetails:bool}"
 @inject HttpClient Http
 
 <h1>Forecast for @Date</h1>
@@ -15,9 +15,12 @@
         <th>Summary</th>
         <th>@Forecast.Summary</th>
     </tr>
-    <tr>
-        <th>Additional Info:</th>
-        <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</th>
-    </tr>
+    @if (ShowDetails)
+    {
+        <tr>
+            <th>Additional Info:</th>
+            <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</th>
+        </tr>
+    }
 </table> 
