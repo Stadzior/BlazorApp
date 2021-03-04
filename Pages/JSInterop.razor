@@ -2,11 +2,13 @@
 @inject IJSRuntime JSRuntime
 
 <div id="placeholder"></div>
+<button class="btn btn-success" @onclick="SayHello">Say hello to JS</button>
 
 @code
 {    
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    public async Task SayHello()
     {
-        await JSRuntime.InvokeVoidAsync("hello.Hello");
+        await JSRuntime.InvokeVoidAsync("Hello");
+        //await JSRuntime.InvokeVoidAsync("alert('Hello from the other side!')");
     }
 }
