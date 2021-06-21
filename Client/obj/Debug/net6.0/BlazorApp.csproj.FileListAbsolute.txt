@@ -28,7 +28,6 @@ C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
-C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\nunit.framework.dll.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
@@ -236,7 +235,6 @@ C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
-C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\nunit.framework.dll
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipelines.dll
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
@@ -482,7 +480,6 @@ C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\otye62F9.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\JA1qqF+s.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\ncfqR0j+.gz
-C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\6H93zZJo.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\BJVLtZUU.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\yj6pyLVA.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\nQhuzuxB.gz
@@ -667,7 +664,6 @@ C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\4UGKlH39.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\Q5vXMVeo.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\3fBAbwcw.gz
-C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\oImuYijI.gz
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\staticwebassets\BlazorApp.StaticWebAssets.Manifest.cache
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\staticwebassets\BlazorApp.StaticWebAssets.xml
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
@@ -679,3 +675,4 @@ C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\BlazorApp.dll
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\ref\BlazorApp.dll
 C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\BlazorApp.pdb
+c:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\Client\obj\Debug\net6.0\build-gz\iIn5UQQM.gz

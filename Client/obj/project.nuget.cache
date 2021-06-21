@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7bwZnAhL2JE0vVqP0bPRCKS+Jw1qpHWfDgd17BU2ONp07dZFG7UPfPEevlRPdBbUAf7CKgENtVvuDv4u8FKeWg==",
+  "dgSpecHash": "RDQLD+Wip+IVGMwjs3kGKY9Vuvf/MtmveoEAsXbQRbhQ6pRWkI6Htr7lSDREpldnocKArUT/aOAq3l1c82hdOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj",
+  "projectFilePath": "c:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stadryniakk\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0-preview.1.21103.6\\microsoft.aspnetcore.authorization.6.0.0-preview.1.21103.6.nupkg.sha512",
     "C:\\Users\\stadryniakk\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0-preview.1.21103.6\\microsoft.aspnetcore.components.6.0.0-preview.1.21103.6.nupkg.sha512",
@@ -28,9 +28,6 @@
     "C:\\Users\\stadryniakk\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.1.21102.12\\microsoft.extensions.primitives.6.0.0-preview.1.21102.12.nupkg.sha512",
     "C:\\Users\\stadryniakk\\.nuget\\packages\\microsoft.jsinterop\\6.0.0-preview.1.21103.6\\microsoft.jsinterop.6.0.0-preview.1.21103.6.nupkg.sha512",
     "C:\\Users\\stadryniakk\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.0-preview.1.21103.6\\microsoft.jsinterop.webassembly.6.0.0-preview.1.21103.6.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\stadryniakk\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\stadryniakk\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\stadryniakk\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0-preview.1.21102.12\\system.diagnostics.diagnosticsource.6.0.0-preview.1.21102.12.nupkg.sha512",
     "C:\\Users\\stadryniakk\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.1.21102.12\\system.io.pipelines.6.0.0-preview.1.21102.12.nupkg.sha512",
     "C:\\Users\\stadryniakk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.1.21102.12\\system.runtime.compilerservices.unsafe.6.0.0-preview.1.21102.12.nupkg.sha512",

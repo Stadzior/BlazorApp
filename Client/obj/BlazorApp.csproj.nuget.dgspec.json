@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj": {}
+    "c:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj": {
+    "c:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj",
+        "projectUniqueName": "c:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "C:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj",
+        "projectPath": "c:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\BlazorApp.csproj",
         "packagesPath": "C:\\Users\\stadryniakk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\obj\\",
+        "outputPath": "c:\\Users\\stadryniakk\\Desktop\\Blazor\\KarieraIT\\BlazorApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
@@ -56,10 +56,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0-preview.1.21103.6, )"
-            },
-            "nunit": {
-              "target": "Package",
-              "version": "[3.13.2, )"
             }
           },
           "imports": [
