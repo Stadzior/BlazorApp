@@ -2,11 +2,11 @@ namespace BlazorApp.Pages
 {
     public partial class Counter
     {
-        private int currentCount = 0;
+        public int CurrentCount {get; private set;} = 0;
 
-        void IncrementCount()
+        public void IncrementCount()
         {
-            currentCount++;
+            CurrentCount++;
         }
     }
 }
