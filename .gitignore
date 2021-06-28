@@ -1,4 +1,4 @@
-/bin
-/obj
-/MutationTests/bin
-/MutationTests/obj
+/BlazorApp/bin
+/BlazorApp/obj
+/BlazorApp.Specs/bin
+/BlazorApp.Specs/obj
