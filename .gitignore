@@ -1,5 +1,6 @@
 /BlazorApp/bin
 /BlazorApp/obj
+/BlazorApp/TestResults/
 /BlazorApp.Specs/bin
 /BlazorApp.Specs/obj
 /.vs
