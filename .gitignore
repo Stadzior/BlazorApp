@@ -3,5 +3,7 @@
 /BlazorApp/TestResults/
 /BlazorApp.Specs/bin
 /BlazorApp.Specs/obj
+/BlazorApp.NUnitSpecs/bin
+/BlazorApp.NUnitSpecs/obj
 /.vs
 /BlazorApp/.vs
