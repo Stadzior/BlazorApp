@@ -1,0 +1,305 @@
+﻿2021-06-28T13:08:39.1618440+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-28T13:08:39.1619665+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework net50 in x64 mode execution started
+2021-06-28T13:08:39.1619696+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-28T13:08:39.1632851+02:00;VSTestExecutionThread;Info;Current UserName: 'stadryniakk', MachineName: 'L1430'
+2021-06-28T13:08:39.1838250+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.Specs.dll
+2021-06-28T13:08:39.1840318+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp\TestResults" (default)
+2021-06-28T13:08:39.1840901+02:00;VSTestExecutionThread;Info;Profile: 
+2021-06-28T13:08:39.2125314+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp\TestResults\Unnamed project__2021-06-28T130839.log
+2021-06-28T13:08:39.2161979+02:00;Thread#12;Info;Checking activation
+2021-06-28T13:08:40.1766023+02:00;Thread#12;Info;Activated.
+2021-06-28T13:08:40.1768340+02:00;Thread#12;Info;Activation check completed
+2021-06-28T13:08:40.1768960+02:00;Thread#12;Info;Starting test run
+2021-06-28T13:08:40.1898002+02:00;Thread#12;Info;Discovering target: Default
+2021-06-28T13:08:40.1900216+02:00;Thread#12;Info;Discovering tests from assembly: C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.Specs.dll
+2021-06-28T13:08:40.2473775+02:00;Thread#12;Info;Discovered tests from assembly: C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.Specs.dll
+2021-06-28T13:08:40.2482922+02:00:Test Suite Dump
+2021-06-28T13:08:40.2494972+02:00:#0: Unnamed project/ - 
+2021-06-28T13:08:40.2495121+02:00:#1: Default - 
+2021-06-28T13:08:40.2495150+02:00:#2: BlazorApp.Specs - 
+2021-06-28T13:08:40.2495162+02:00:#3: Counter - 
+2021-06-28T13:08:40.2503421+02:00:#4: Increment counter - TestAssembly:BlazorApp.Specs/Feature:Counter/Scenario:Increment+counter
+2021-06-28T13:08:40.2503693+02:00:#5: Decrement counter with initial positive value - TestAssembly:BlazorApp.Specs/Feature:Counter/Scenario:Decrement+counter+with+initial+positive+value
+2021-06-28T13:08:40.2503766+02:00:#6: Decrement counter with initial zero value - TestAssembly:BlazorApp.Specs/Feature:Counter/Scenario:Decrement+counter+with+initial+zero+value
+2021-06-28T13:08:40.2503843+02:00:#7: Reset counter - TestAssembly:BlazorApp.Specs/Feature:Counter/Scenario:Reset+counter
+2021-06-28T13:08:40.2504635+02:00:End: Test Suite Dump
+2021-06-28T13:08:40.2621821+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-28T13:08:40.2637269+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-06-28T13:08:40.2637952+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-28T13:08:40.2661650+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-28T13:08:40.2661811+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-28T13:08:40.2661841+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-06-28T13:08:40.2661869+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-28T13:08:40.2668721+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-28T13:08:40.2681801+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-28T13:08:40.2699026+02:00:Thread #0: creating new test thread executor for BlazorApp.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-28T13:08:40.2717389+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-28T13:08:40.2718939+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-28T13:08:40.2739075+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-28T13:08:40.2762294+02:00:starting Out Of Process Executor
+2021-06-28T13:08:40.2777637+02:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-28T13:08:40.2794907+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-06-28T13:08:40.2795038+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-06-28T13:08:40.2804595+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:40.2808088+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Validation.dll'
+2021-06-28T13:08:40.2809160+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Validation.exe'
+2021-06-28T13:08:40.2809531+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:40.2811332+02:00:TargetFramework: .NETCoreApp,Version=v5.0
+2021-06-28T13:08:40.2815604+02:00:Tfm: netcoreapp5.0
+2021-06-28T13:08:40.2815716+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:40.2815731+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Validation.dll'
+2021-06-28T13:08:40.2816223+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Validation.exe'
+2021-06-28T13:08:40.2816547+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:40.2865795+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:40.2865962+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\Microsoft.VisualStudio.Validation.dll'
+2021-06-28T13:08:40.2866405+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\Microsoft.VisualStudio.Validation.exe'
+2021-06-28T13:08:40.2866678+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:40.2867863+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:40.2867931+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\Microsoft.VisualStudio.Validation.dll'
+2021-06-28T13:08:40.2868237+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\Microsoft.VisualStudio.Validation.exe'
+2021-06-28T13:08:40.2868480+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:40.2869464+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:40.2869524+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\Microsoft.VisualStudio.Validation.dll'
+2021-06-28T13:08:40.2869813+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\Microsoft.VisualStudio.Validation.exe'
+2021-06-28T13:08:40.2870060+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:40.2888949+02:00:Starting callback TCP Rpc server
+2021-06-28T13:08:40.3158871+02:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-28T13:08:40.3159411+02:00:Started callback TCP Rpc server on port 32768
+2021-06-28T13:08:40.3159440+02:00:Starting logger TCP Rpc server
+2021-06-28T13:08:40.3177303+02:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-28T13:08:40.3177526+02:00:Started logger TCP Rpc server on port 32769
+2021-06-28T13:08:40.3870918+02:00:Executing test executor at 'dotnet' 'exec "C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\net5.0\TechTalk.SpecRun.Framework.Executor.anycpu.net5_0.dll" --remoteRunnerPid 20420 --uniqueId "2021-06-28T130839" --outputFolder "C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:40.4047811+02:00:Executor with PID 5688 has been started successfully.
+2021-06-28T13:08:40.4070298+02:00:Out of Process Executor 5688 started
+2021-06-28T13:08:40.4070430+02:00:Waiting for endpoint
+2021-06-28T13:08:40.6343382+02:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pl-PL, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-28T13:08:40.6343573+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2021-06-28T13:08:40.6343591+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2021-06-28T13:08:40.6343633+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:40.6343646+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\StreamJsonRpc.resources.dll'
+2021-06-28T13:08:40.6343920+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\StreamJsonRpc.resources.exe'
+2021-06-28T13:08:40.6344199+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:40.6344231+02:00:TargetFramework: .NETCoreApp,Version=v5.0
+2021-06-28T13:08:40.6344465+02:00:Tfm: netcoreapp5.0
+2021-06-28T13:08:40.6344714+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:40.6344733+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\StreamJsonRpc.resources.dll'
+2021-06-28T13:08:40.6345296+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\StreamJsonRpc.resources.exe'
+2021-06-28T13:08:40.6345596+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:40.6350372+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:40.6350457+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\StreamJsonRpc.resources.dll'
+2021-06-28T13:08:40.6350755+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\StreamJsonRpc.resources.exe'
+2021-06-28T13:08:40.6350988+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:40.6352014+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:40.6352079+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\StreamJsonRpc.resources.dll'
+2021-06-28T13:08:40.6352655+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\StreamJsonRpc.resources.exe'
+2021-06-28T13:08:40.6353031+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:40.6354041+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:40.6354101+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\StreamJsonRpc.resources.dll'
+2021-06-28T13:08:40.6354383+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\StreamJsonRpc.resources.exe'
+2021-06-28T13:08:40.6354603+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:40.6359985+02:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=pl, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-28T13:08:40.6365295+02:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-28T13:08:40.6365399+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-06-28T13:08:40.6365419+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-06-28T13:08:40.6365451+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:40.6365461+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Threading.dll'
+2021-06-28T13:08:40.6365762+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\Microsoft.VisualStudio.Threading.exe'
+2021-06-28T13:08:40.6366038+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:40.6366068+02:00:TargetFramework: .NETCoreApp,Version=v5.0
+2021-06-28T13:08:40.6366176+02:00:Tfm: netcoreapp5.0
+2021-06-28T13:08:40.6366196+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:40.6366206+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Threading.dll'
+2021-06-28T13:08:40.6366649+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Threading.exe'
+2021-06-28T13:08:40.6367042+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:40.6371337+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:40.6371420+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\Microsoft.VisualStudio.Threading.dll'
+2021-06-28T13:08:40.6371722+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\Microsoft.VisualStudio.Threading.exe'
+2021-06-28T13:08:40.6371998+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:40.6373479+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:40.6373539+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\Microsoft.VisualStudio.Threading.dll'
+2021-06-28T13:08:40.6373828+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\Microsoft.VisualStudio.Threading.exe'
+2021-06-28T13:08:40.6374076+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:40.6375535+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:40.6375598+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\Microsoft.VisualStudio.Threading.dll'
+2021-06-28T13:08:40.6375904+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\Microsoft.VisualStudio.Threading.exe'
+2021-06-28T13:08:40.6376144+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:40.7894363+02:00:Remote executor port received: 32770
+2021-06-28T13:08:40.7896852+02:00:Creating executor TCP client on port 32770
+2021-06-28T13:08:40.7900005+02:00:Created executor TCP client on port 32770
+2021-06-28T13:08:40.7900077+02:00:Connecting to remote executor TCP server
+2021-06-28T13:08:40.7907820+02:00:Connected remote executor TCP server
+2021-06-28T13:08:40.7909520+02:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-28T13:08:40.7909607+02:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-28T13:08:40.8945983+02:00:2021-06-28T13:08:40.8931909+02:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.Specs.dll on test thread #0
+2021-06-28T13:08:40.8984236+02:00:Endpoint 5688 started
+2021-06-28T13:08:40.9110640+02:00:2021-06-28T13:08:40.9106501+02:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-28T13:08:40.9929502+02:00:2021-06-28T13:08:40.9924752+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-06-28T13:08:40.9952703+02:00:2021-06-28T13:08:40.9949483+02:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-06-28T13:08:40.9975834+02:00:2021-06-28T13:08:40.9972622+02:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\stadryniakk\.nuget\packages\specflow\3.9.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-06-28T13:08:41.0693586+02:00:2021-06-28T13:08:41.0688965+02:00:Thread#0:T:-> Loading plugin C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.Specs.dll
+2021-06-28T13:08:41.0703653+02:00:2021-06-28T13:08:41.0701058+02:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-06-28T13:08:41.0708577+02:00:2021-06-28T13:08:41.0705994+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2021-06-28T13:08:41.0716654+02:00:2021-06-28T13:08:41.0712595+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\stadryniakk\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2021-06-28T13:08:41.1106875+02:00:2021-06-28T13:08:41.1103095+02:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-06-28T13:08:41.1110751+02:00:2021-06-28T13:08:41.1108958+02:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2021-06-28T13:08:41.1116797+02:00:2021-06-28T13:08:41.1114471+02:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\stadryniakk\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2021-06-28T13:08:41.1175279+02:00:2021-06-28T13:08:41.1171548+02:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in BlazorApp.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-06-28T13:08:41.1180419+02:00:2021-06-28T13:08:41.1178069+02:00:Thread#0:T:-> Loading plugin C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\LivingDoc.SpecFlowPlugin.dll
+2021-06-28T13:08:41.1197293+02:00:2021-06-28T13:08:41.1194599+02:00:Assembly resolving LivingDoc.Dtos, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+2021-06-28T13:08:41.1200813+02:00:2021-06-28T13:08:41.1199096+02:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-06-28T13:08:41.1206776+02:00:2021-06-28T13:08:41.1204396+02:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\stadryniakk\.nuget\packages\specflow.plus.livingdocplugin\3.9.5\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-06-28T13:08:41.1227019+02:00:2021-06-28T13:08:41.1223973+02:00:Thread#0:T:-> Loading plugin C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-28T13:08:41.1288537+02:00:2021-06-28T13:08:41.1285471+02:00:Thread#0:T:-> Using default config
+2021-06-28T13:08:41.1360813+02:00:2021-06-28T13:08:41.1357160+02:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-06-28T13:08:41.1364675+02:00:2021-06-28T13:08:41.1362962+02:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-06-28T13:08:41.1370258+02:00:2021-06-28T13:08:41.1368010+02:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\stadryniakk\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-06-28T13:08:41.1381352+02:00:2021-06-28T13:08:41.1379015+02:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-06-28T13:08:41.1384797+02:00:2021-06-28T13:08:41.1383167+02:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-06-28T13:08:41.1390663+02:00:2021-06-28T13:08:41.1388486+02:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\stadryniakk\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-06-28T13:08:41.1434882+02:00:2021-06-28T13:08:41.1431791+02:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-28T13:08:41.1438731+02:00:2021-06-28T13:08:41.1437107+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-06-28T13:08:41.1445085+02:00:2021-06-28T13:08:41.1442814+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\stadryniakk\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-06-28T13:08:41.1839788+02:00:2021-06-28T13:08:41.1836022+02:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-06-28T13:08:41.1843955+02:00:2021-06-28T13:08:41.1842394+02:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2021-06-28T13:08:41.1849173+02:00:2021-06-28T13:08:41.1846840+02:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\stadryniakk\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2021-06-28T13:08:41.2486240+02:00:Thread#0: Test #4/0 is started on thread #0
+2021-06-28T13:08:41.2637651+02:00:2021-06-28T13:08:41.2633513+02:00:Thread#0:B:Given the counter value is 50
+2021-06-28T13:08:41.2779206+02:00:2021-06-28T13:08:41.2774645+02:00:Assembly resolving BlazorApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2021-06-28T13:08:41.2784635+02:00:2021-06-28T13:08:41.2781696+02:00:[AssemblyCache] Trying to resolve 'BlazorApp' from .deps.json file
+2021-06-28T13:08:41.2796551+02:00:2021-06-28T13:08:41.2793101+02:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'BlazorApp', found in dependency map, but unable to resolve a path in ['BlazorApp.dll']
+2021-06-28T13:08:41.2806342+02:00:2021-06-28T13:08:41.2799947+02:00:[AssemblyCache] Could not resolve 'BlazorApp' from .deps.json
+2021-06-28T13:08:41.2826795+02:00:2021-06-28T13:08:41.2822381+02:00:[AssemblyCache] Trying to resolve 'BlazorApp' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:41.2871206+02:00:2021-06-28T13:08:41.2867402+02:00:[AssemblyCache] Trying to resolve 'BlazorApp' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.dll'
+2021-06-28T13:08:41.2877449+02:00:2021-06-28T13:08:41.2875260+02:00:[AssemblyCache] Found file 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.dll' for assembly 'BlazorApp'
+2021-06-28T13:08:41.2884590+02:00:2021-06-28T13:08:41.2882598+02:00:[AssemblyCache] Resolved 'BlazorApp' to C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\BlazorApp.dll
+2021-06-28T13:08:41.2889318+02:00:2021-06-28T13:08:41.2887451+02:00:Assembly resolving Microsoft.AspNetCore.Components, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-06-28T13:08:41.2892471+02:00:2021-06-28T13:08:41.2890813+02:00:[AssemblyCache] Trying to resolve 'Microsoft.AspNetCore.Components' from .deps.json file
+2021-06-28T13:08:41.2898203+02:00:2021-06-28T13:08:41.2896160+02:00:[AssemblyCache] Resolved 'Microsoft.AspNetCore.Components' to 'C:\Users\stadryniakk\.nuget\packages\microsoft.aspnetcore.components\5.0.7\lib\net5.0\Microsoft.AspNetCore.Components.dll'
+2021-06-28T13:08:41.3190668+02:00:2021-06-28T13:08:41.3186893+02:00:Thread#0:T:pending: CounterStepDefinitions.GivenTheCounterValueIs(50)
+2021-06-28T13:08:41.3211159+02:00:2021-06-28T13:08:41.3208689+02:00:Thread#0:B:When the user clicks "++" button
+2021-06-28T13:08:41.3221065+02:00:2021-06-28T13:08:41.3218678+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3243956+02:00:2021-06-28T13:08:41.3241273+02:00:Thread#0:B:Then the counter value should be 51
+2021-06-28T13:08:41.3249904+02:00:2021-06-28T13:08:41.3246780+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3304551+02:00:2021-06-28T13:08:41.3299903+02:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2021-06-28T13:08:41.3309568+02:00:2021-06-28T13:08:41.3307475+02:00:Thread#0:T:  CounterStepDefinitions.GivenTheCounterValueIs(50)
+2021-06-28T13:08:41.3363914+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-28T13:08:41.3364095+02:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-06-28T13:08:41.3364113+02:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-06-28T13:08:41.3364736+02:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-28T13:08:41.3364758+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-06-28T13:08:41.3364770+02:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2021-06-28T13:08:41.3364781+02:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-06-28T13:08:41.3364920+02:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-06-28T13:08:41.3365008+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-28T13:08:41.3593714+02:00:Thread#0: Test #4/0 is finished on thread #0 as Pending within 0,1100379 seconds
+2021-06-28T13:08:41.3618063+02:00:Thread#0: Test #5/0 is started on thread #0
+2021-06-28T13:08:41.3647009+02:00:2021-06-28T13:08:41.3643801+02:00:Thread#0:B:Given the counter value is 50
+2021-06-28T13:08:41.3658566+02:00:2021-06-28T13:08:41.3655551+02:00:Thread#0:T:pending: CounterStepDefinitions.GivenTheCounterValueIs(50)
+2021-06-28T13:08:41.3664063+02:00:2021-06-28T13:08:41.3661599+02:00:Thread#0:B:When the user clicks "--" button
+2021-06-28T13:08:41.3668907+02:00:2021-06-28T13:08:41.3666602+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3674191+02:00:2021-06-28T13:08:41.3671603+02:00:Thread#0:B:Then the counter value should be 49
+2021-06-28T13:08:41.3679048+02:00:2021-06-28T13:08:41.3676508+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3690613+02:00:2021-06-28T13:08:41.3687984+02:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2021-06-28T13:08:41.3695010+02:00:2021-06-28T13:08:41.3692855+02:00:Thread#0:T:  CounterStepDefinitions.GivenTheCounterValueIs(50)
+2021-06-28T13:08:41.3703622+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-28T13:08:41.3703726+02:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-28T13:08:41.3703740+02:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-28T13:08:41.3703854+02:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-28T13:08:41.3703871+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-28T13:08:41.3703889+02:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2021-06-28T13:08:41.3703898+02:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-28T13:08:41.3703958+02:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-28T13:08:41.3704005+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-28T13:08:41.3713538+02:00:Thread#0: Test #5/0 is finished on thread #0 as Pending within 0,0095139 seconds
+2021-06-28T13:08:41.3717657+02:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-28T13:08:41.3729118+02:00:2021-06-28T13:08:41.3726272+02:00:Thread#0:B:Given the counter value is 0
+2021-06-28T13:08:41.3740614+02:00:2021-06-28T13:08:41.3737677+02:00:Thread#0:T:pending: CounterStepDefinitions.GivenTheCounterValueIs(0)
+2021-06-28T13:08:41.3745734+02:00:2021-06-28T13:08:41.3743224+02:00:Thread#0:B:When the user clicks "--" button
+2021-06-28T13:08:41.3750123+02:00:2021-06-28T13:08:41.3748039+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3757124+02:00:2021-06-28T13:08:41.3755477+02:00:Thread#0:B:Then the counter value should be 0
+2021-06-28T13:08:41.3761477+02:00:2021-06-28T13:08:41.3759436+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3771265+02:00:2021-06-28T13:08:41.3768575+02:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2021-06-28T13:08:41.3775320+02:00:2021-06-28T13:08:41.3773393+02:00:Thread#0:T:  CounterStepDefinitions.GivenTheCounterValueIs(0)
+2021-06-28T13:08:41.3782851+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-28T13:08:41.3782952+02:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2021-06-28T13:08:41.3782978+02:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2021-06-28T13:08:41.3783097+02:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-28T13:08:41.3783114+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2021-06-28T13:08:41.3783122+02:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2021-06-28T13:08:41.3783131+02:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2021-06-28T13:08:41.3783191+02:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2021-06-28T13:08:41.3783246+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-28T13:08:41.3791074+02:00:Thread#0: Test #6/0 is finished on thread #0 as Pending within 0,0073258 seconds
+2021-06-28T13:08:41.3795234+02:00:Thread#0: Test #7/0 is started on thread #0
+2021-06-28T13:08:41.3808208+02:00:2021-06-28T13:08:41.3804527+02:00:Thread#0:B:Given the counter value is 50
+2021-06-28T13:08:41.3819637+02:00:2021-06-28T13:08:41.3816930+02:00:Thread#0:T:pending: CounterStepDefinitions.GivenTheCounterValueIs(50)
+2021-06-28T13:08:41.3824736+02:00:2021-06-28T13:08:41.3822300+02:00:Thread#0:B:When the user clicks "Reset" button
+2021-06-28T13:08:41.3829603+02:00:2021-06-28T13:08:41.3827258+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3833525+02:00:2021-06-28T13:08:41.3831345+02:00:Thread#0:B:Then the counter value should be 0
+2021-06-28T13:08:41.3838286+02:00:2021-06-28T13:08:41.3836063+02:00:Thread#0:T:skipped because of previous errors
+2021-06-28T13:08:41.3847960+02:00:2021-06-28T13:08:41.3845552+02:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2021-06-28T13:08:41.3852046+02:00:2021-06-28T13:08:41.3849940+02:00:Thread#0:T:  CounterStepDefinitions.GivenTheCounterValueIs(50)
+2021-06-28T13:08:41.3860827+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-28T13:08:41.3860921+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-28T13:08:41.3860933+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-06-28T13:08:41.3860947+02:00:Thread#0:Scheduler: No more tests for thread
+2021-06-28T13:08:41.3879076+02:00:Thread#0: Test #7/0 is finished on thread #0 as Pending within 0,0083674 seconds
+2021-06-28T13:08:41.3931852+02:00:2021-06-28T13:08:41.3929072+02:00:Got Deinitialize Signal
+2021-06-28T13:08:41.3956273+02:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-28T13:08:41.3967166+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-28T13:08:41.3973009+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-28T13:08:41.3982995+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=5.0.0.0, Culture=pl-PL, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-28T13:08:41.3983076+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-06-28T13:08:41.3983116+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-06-28T13:08:41.3983146+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:41.3983165+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\System.Diagnostics.Process.resources.dll'
+2021-06-28T13:08:41.3983545+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\System.Diagnostics.Process.resources.exe'
+2021-06-28T13:08:41.3983817+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0'
+2021-06-28T13:08:41.3983841+02:00:TargetFramework: .NETCoreApp,Version=v5.0
+2021-06-28T13:08:41.3983948+02:00:Tfm: netcoreapp5.0
+2021-06-28T13:08:41.3983967+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:41.3984014+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\System.Diagnostics.Process.resources.dll'
+2021-06-28T13:08:41.3984368+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\System.Diagnostics.Process.resources.exe'
+2021-06-28T13:08:41.3984645+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp.Specs\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2021-06-28T13:08:41.3989488+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:41.3989550+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\System.Diagnostics.Process.resources.dll'
+2021-06-28T13:08:41.3989857+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3\System.Diagnostics.Process.resources.exe'
+2021-06-28T13:08:41.3990081+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.3'
+2021-06-28T13:08:41.3991055+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:41.3991105+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\System.Diagnostics.Process.resources.dll'
+2021-06-28T13:08:41.3991381+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3\System.Diagnostics.Process.resources.exe'
+2021-06-28T13:08:41.3991603+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.3'
+2021-06-28T13:08:41.3992605+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:41.3992655+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\System.Diagnostics.Process.resources.dll'
+2021-06-28T13:08:41.3992938+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3\System.Diagnostics.Process.resources.exe'
+2021-06-28T13:08:41.3993172+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.3'
+2021-06-28T13:08:41.3995551+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=5.0.0.0, Culture=pl, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-28T13:08:41.4042562+02:00:Thread#-1:Scheduler: get next test for thread -1
+2021-06-28T13:08:41.4042652+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-28T13:08:41.4042668+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-28T13:08:41.4056565+02:00;Thread#12;Info;test run finished
+2021-06-28T13:08:41.4057939+02:00;Thread#12;Info;publishing test results
+2021-06-28T13:08:41.4059043+02:00;Thread#12;Info;Not publishing results.
+2021-06-28T13:08:41.4059588+02:00;Thread#12;Info;test results published
+2021-06-28T13:08:41.4059874+02:00;Thread#12;Info;generating reports
+2021-06-28T13:08:41.4601539+02:00;Thread#12;Info;Starting external report generation process
+2021-06-28T13:08:42.7550524+02:00;Thread#12;Info;Successfully generated reports.
+2021-06-28T13:08:42.7566930+02:00;Thread#12;Info;Successfully generated reports
+2021-06-28T13:08:42.7622603+02:00:Total: 4
+2021-06-28T13:08:42.7635456+02:00:Succeeded: 0
+2021-06-28T13:08:42.7637857+02:00:Ignored: 0
+2021-06-28T13:08:42.7639741+02:00:Pending: 4
+2021-06-28T13:08:42.7639800+02:00:Skipped: 0
+2021-06-28T13:08:42.7641707+02:00:Failed: 0
+2021-06-28T13:08:42.7700419+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-06-28T13:08:42.7701338+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\stadryniakk\Desktop\Blazor\KarieraIT\BlazorApp\BlazorApp\TestResults\Unnamed project__2021-06-28T130839.html'
+========== End of log file ==========

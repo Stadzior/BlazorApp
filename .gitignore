@@ -2,3 +2,5 @@
 /BlazorApp/obj
 /BlazorApp.Specs/bin
 /BlazorApp.Specs/obj
+/.vs
+/BlazorApp/.vs
