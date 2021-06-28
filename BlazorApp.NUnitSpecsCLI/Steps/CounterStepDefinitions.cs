@@ -2,7 +2,7 @@
 using FluentAssertions;
 using TechTalk.SpecFlow;
 
-namespace BlazorApp.Specs.Steps
+namespace BlazorApp.NUnitSpecsCLI.Steps
 {
     [Binding]
     public sealed class CounterStepDefinitions
