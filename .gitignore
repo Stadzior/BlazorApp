@@ -7,5 +7,7 @@
 /BlazorApp.NUnitSpecs/obj
 /BlazorApp.NUnitSpecsCLI/bin
 /BlazorApp.NUnitSpecsCLI/obj
+/BlazorApp.Tests/bin
+/BlazorApp.Tests/obj
 /.vs
 /BlazorApp/.vs
