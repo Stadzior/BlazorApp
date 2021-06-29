@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace BlazorApp.NUnitSpecsCLI.Features
+namespace BlazorApp.Specs.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -38,7 +38,7 @@ namespace BlazorApp.NUnitSpecsCLI.Features
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Counter", @"![Counter](https://github.com/Stadzior/BlazorApp/blob/master/BlazorApp.Specs/Assets/51G26e3Y9XL._AC_SX425_.jpg)
 	Simple counter which value is incrementing and decrementing upon
 
-Link to a feature: [Counter](BlazorApp.NUnitSpecsCLI/Features/Counter.feature)
+Link to a feature: [Counter](BlazorApp.Specs/Features/Counter.feature)
 ***Further read***: **[Learn more about how to generate Living Documentation](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/LivingDocGenerator/Generating-Documentation.html)**", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
