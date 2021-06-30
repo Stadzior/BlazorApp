@@ -22,10 +22,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Run Unit and Spec Test
-      run: dotnet test --no-build --verbosity normal --filter FullyQualifiedName!~UITests --work TestResults.xml
-    - name: Publish Unit Test Results
-      uses: EnricoMi/publish-unit-test-result-action@v1
-      if: always()
-      with:
-        files: TestResults.xml
+      run: dotnet test --no-build --verbosity normal --filter FullyQualifiedName!~UITests
 
