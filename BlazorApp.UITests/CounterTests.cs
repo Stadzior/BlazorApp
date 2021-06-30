@@ -2,7 +2,6 @@ using System.Threading;
 using BlazorApp.UITests.Enums;
 using BlazorApp.UITests.Helpers;
 using NUnit.Framework;
-using OpenQA.Selenium.Chrome;
 
 namespace BlazorApp.UITests
 {
@@ -12,10 +11,8 @@ namespace BlazorApp.UITests
         [Test]
         public void UserClicksTheIncrementValueButtonTest()
         {
-            using var session = new WebSession(BrowserType.Chrome);
+            using var session = new WebSession(BrowserType.Chrome, true);
 
-            session.Driver.Navigate().GoToUrl("https://google.com");
-            Thread.Sleep(2000);
             session.Driver.Navigate().GoToUrl("https://localhost:5000");
         }
     }
