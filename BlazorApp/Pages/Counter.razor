@@ -2,8 +2,8 @@
 
 <h1>Counter</h1>
 
-<p>Current count: @CurrentCount</p>
+<p id="counter_value">Current count: @CurrentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">++</button>
-<button class="btn btn-primary" @onclick="DecrementCount">--</button>
-<button class="btn btn-primary" @onclick="ResetCount">Reset</button>
+<button id="increment_count_button" class="btn btn-primary" @onclick="IncrementCount">++</button>
+<button id="decrement_count_button" class="btn btn-primary" @onclick="DecrementCount">--</button>
+<button id="reset_count_button" class="btn btn-primary" @onclick="ResetCount">Reset</button>

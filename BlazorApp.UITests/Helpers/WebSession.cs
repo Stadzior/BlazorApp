@@ -14,22 +14,22 @@ namespace BlazorApp.UITests.Helpers
 {
     public class WebSession : IDisposable
     {
-        private readonly string _pathToApp = @"\..\..\..\..\BlazorApp";
+        private readonly string _pathToApp = @"..\..\..\..\BlazorApp";
         private Process _process;
         private bool _appIsRunning;
 
         public IWebDriver Driver { get; }
 
-        public WebSession(BrowserType browserType, bool acceptInsecureCertificates)
+        public WebSession(BrowserType browserType)
         {
             Driver = browserType switch
             {
-                BrowserType.Chrome => new ChromeDriver(new ChromeOptions { AcceptInsecureCertificates = acceptInsecureCertificates }),
-                BrowserType.Firefox => new FirefoxDriver(new FirefoxOptions { AcceptInsecureCertificates = acceptInsecureCertificates }),
-                BrowserType.Edge => new EdgeDriver(new EdgeOptions { AcceptInsecureCertificates = acceptInsecureCertificates }),
-                BrowserType.Safari => new SafariDriver(new SafariOptions { AcceptInsecureCertificates = acceptInsecureCertificates }),
-                BrowserType.InternetExplorer => new InternetExplorerDriver(new InternetExplorerOptions { AcceptInsecureCertificates = acceptInsecureCertificates }),
-                BrowserType.Opera => new OperaDriver(new OperaOptions { AcceptInsecureCertificates = acceptInsecureCertificates }),
+                BrowserType.Chrome => new ChromeDriver(),
+                BrowserType.Firefox => new FirefoxDriver(),
+                BrowserType.Edge => new EdgeDriver(),
+                BrowserType.Safari => new SafariDriver(),
+                BrowserType.InternetExplorer => new InternetExplorerDriver(),
+                BrowserType.Opera => new OperaDriver(),
                 _ => throw new ArgumentOutOfRangeException(nameof(browserType), browserType, "Specified browser is not supported by the WebDriver.")
             };
 
