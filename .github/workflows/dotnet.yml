@@ -23,8 +23,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Run Unit and Spec Test
       run: dotnet test --no-build --verbosity normal --filter FullyQualifiedName!~UITests
-    - name: Install Chrome driver
     - uses: nanasess/setup-chromedriver@master
+    - name: Install Chrome driver
     - run: |
         export DISPLAY=:99
         chromedriver --url-base=/wd/hub &
