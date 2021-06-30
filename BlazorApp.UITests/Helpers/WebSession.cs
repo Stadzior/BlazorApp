@@ -22,9 +22,12 @@ namespace BlazorApp.UITests.Helpers
 
         public WebSession(BrowserType browserType)
         {
+            var options = new ChromeOptions();
+            options.AddArgument("--no-sandbox");
+
             Driver = browserType switch
             {
-                BrowserType.Chrome => new ChromeDriver(),
+                BrowserType.Chrome => new ChromeDriver(options),
                 BrowserType.Firefox => new FirefoxDriver(),
                 BrowserType.Edge => new EdgeDriver(),
                 BrowserType.Safari => new SafariDriver(),
