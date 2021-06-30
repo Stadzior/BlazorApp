@@ -24,6 +24,7 @@ namespace BlazorApp.UITests.Helpers
         {
             var options = new ChromeOptions();
             options.AddArgument("--no-sandbox");
+            options.AddArgument("--disable-dev-shm-usage");
 
             Driver = browserType switch
             {
