@@ -25,7 +25,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal --filter FullyQualifiedName!~UITests
     - uses: nanasess/setup-chromedriver@master
     - name: Install Chrome driver
-    - run: |
+      run: |
         export DISPLAY=:99
         chromedriver --url-base=/wd/hub &
         sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
