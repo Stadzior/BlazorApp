@@ -1,4 +1,4 @@
-name: .NET
+name: Build + Test
 
 on:
   push:
@@ -23,9 +23,12 @@ jobs:
       run: dotnet build --no-restore
     - name: Run Unit and Spec Test
       run: dotnet test --no-build --verbosity normal --filter FullyQualifiedName!~UITests
-    - name: Publish Unit Test Results
-      uses: EnricoMi/publish-unit-test-result-action@v1
-      if: always()
-      with:
-        files: TestResults.xml
+    - uses: nanasess/setup-chromedriver@master
+    - name: Install Chrome driver
+      run: |
+        export DISPLAY=:99
+        chromedriver --url-base=/wd/hub &
+        sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
+    - name: Run UI Tests
+      run: dotnet test --no-build --verbosity normal --filter FullyQualifiedName~UITests
 
