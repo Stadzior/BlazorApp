@@ -23,8 +23,12 @@ namespace BlazorApp.UITests.Helpers
         public WebSession(BrowserType browserType)
         {
             var options = new ChromeOptions();
+            options.AddArgument("start-maximized");
+            options.AddArgument("disable-infobars");
+            options.AddArgument("--disable-extensions");
             options.AddArgument("--no-sandbox");
             options.AddArgument("--disable-dev-shm-usage");
+            options.AddArgument("--headless");
 
             Driver = browserType switch
             {
