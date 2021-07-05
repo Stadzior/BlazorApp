@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Text;
 using System.Threading;
 using BlazorApp.UITests.Enums;
 using OpenQA.Selenium;
@@ -45,7 +46,7 @@ namespace BlazorApp.UITests.Helpers
             StartLatestAppVersion();
         }
 
-        private void StartLatestAppVersion()
+        private void StartLatestAppVersion(int retryCount = 300)
         {
             _process = new Process
             {
@@ -60,10 +61,17 @@ namespace BlazorApp.UITests.Helpers
             
             _process.Start();
 
+            var standardOutput = new StringBuilder();
             while (!_appIsRunning)
             {
                 var output = _process.StandardOutput.ReadLine();
                 _appIsRunning = output?.Contains("Application started") ?? false;
+                standardOutput.AppendLine(output);
+
+                retryCount--;
+                if (retryCount==0)
+                    throw new TimeoutException($"Unable to start webapp. Server output:{Environment.NewLine}{standardOutput}");
+
                 Thread.Sleep(100);
             }
         }
