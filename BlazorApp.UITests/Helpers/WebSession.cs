@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
@@ -64,6 +65,8 @@ namespace BlazorApp.UITests.Helpers
                     RedirectStandardError = true
                 }
             };
+
+            Console.WriteLine(@$"Running dotnet run for {Directory.GetParent(_pathToApp).FullName}\BlazorApp");
             
             _process.Start();
 
@@ -75,7 +78,6 @@ namespace BlazorApp.UITests.Helpers
                     return;
 
                 Console.WriteLine($"Checking if app is running ({retryCount}/{numberOfRetries}).");
-                Thread.Sleep(1000);
             }
 
             Dispose();
