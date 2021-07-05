@@ -7,5 +7,7 @@
 /BlazorApp.Tests/obj
 /BlazorApp.UITests/bin
 /BlazorApp.UITests/obj
+/BlazorApp.UISpecs/bin
+/BlazorApp.UISpecs/obj
 /.vs
 /BlazorApp/.vs
