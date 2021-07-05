@@ -67,7 +67,12 @@ namespace BlazorApp.UITests.Helpers
             };
 
             Console.WriteLine(@$"Running dotnet run for {Directory.GetParent(_pathToApp).FullName}/BlazorApp");
-            
+            var files = Directory.GetFiles(_pathToApp);
+            Console.WriteLine($@"Available files in that directory:");
+            foreach (var file in files)
+            {
+                Console.WriteLine(file);
+            }
             _process.Start();
 
             for (var retryCount = 1; retryCount < numberOfRetries+1; retryCount++)
