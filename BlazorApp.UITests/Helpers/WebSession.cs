@@ -91,11 +91,15 @@ namespace BlazorApp.UITests.Helpers
             {
                 checkingResponse = client.GetAsync("http://localhost:5000").Result;
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                Console.WriteLine(e.Message);
+                if (e.InnerException != null)
+                    Console.WriteLine(e.InnerException.Message);
                 return false;
             }
 
+            Console.WriteLine($"StatusCode of the checking response:{checkingResponse.StatusCode}");
             return checkingResponse.IsSuccessStatusCode;
         }
 
