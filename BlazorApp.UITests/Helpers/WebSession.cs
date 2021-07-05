@@ -23,18 +23,9 @@ namespace BlazorApp.UITests.Helpers
 
         public WebSession(BrowserType browserType)
         {
-            var options = new ChromeOptions();
-            options.AddArgument("start-maximized");
-            options.AddArgument("disable-infobars");
-            options.AddArgument("--disable-extensions");
-            options.AddArgument("--no-sandbox");
-            options.AddArgument("--disable-dev-shm-usage");
-            options.AddArgument("--disable-gpu");
-            options.AddArgument("--headless");
-
             Driver = browserType switch
             {
-                BrowserType.Chrome => new ChromeDriver(options),
+                BrowserType.Chrome => BuildChromeDriver(),
                 BrowserType.Firefox => new FirefoxDriver(),
                 BrowserType.Edge => new EdgeDriver(),
                 BrowserType.Safari => new SafariDriver(),
@@ -44,6 +35,21 @@ namespace BlazorApp.UITests.Helpers
             };
 
             StartLatestAppVersion();
+        }
+
+        private static ChromeDriver BuildChromeDriver()
+        {
+            var service = ChromeDriverService.CreateDefaultService();
+            service.Port = 5000;
+            var options = new ChromeOptions();
+            options.AddArgument("start-maximized");
+            options.AddArgument("disable-infobars");
+            options.AddArgument("--disable-extensions");
+            options.AddArgument("--no-sandbox");
+            options.AddArgument("--disable-dev-shm-usage");
+            options.AddArgument("--disable-gpu");
+            options.AddArgument("--headless");
+            return new ChromeDriver(service, options);
         }
 
         private void StartLatestAppVersion(int numberOfRetries = 30)
