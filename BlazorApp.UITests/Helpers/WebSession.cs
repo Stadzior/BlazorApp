@@ -17,7 +17,7 @@ namespace BlazorApp.UITests.Helpers
 {
     public class WebSession : IDisposable
     {
-        private readonly string _pathToApp = @"..\..\..\..\BlazorApp";
+        private readonly string _pathToApp = @"../../../../BlazorApp";
         private Process _process;
 
         public IWebDriver Driver { get; }
@@ -66,7 +66,7 @@ namespace BlazorApp.UITests.Helpers
                 }
             };
 
-            Console.WriteLine(@$"Running dotnet run for {Directory.GetParent(_pathToApp).FullName}\BlazorApp");
+            Console.WriteLine(@$"Running dotnet run for {Directory.GetParent(_pathToApp).FullName}/BlazorApp");
             
             _process.Start();
 
