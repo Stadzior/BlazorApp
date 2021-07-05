@@ -1,6 +1,6 @@
-﻿using BlazorApp.UISpecs.Enums;
-using BlazorApp.UISpecs.Extensions;
-using BlazorApp.UISpecs.Helpers;
+﻿using BlazorApp.UITests.Enums;
+using BlazorApp.UITests.Helpers;
+using BlazorApp.UITests.Extensions;
 using FluentAssertions;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;

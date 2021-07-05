@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Net.Http;
 using System.Text;
 using System.Threading;
 using BlazorApp.UITests.Enums;
@@ -17,7 +18,6 @@ namespace BlazorApp.UITests.Helpers
     {
         private readonly string _pathToApp = @"..\..\..\..\BlazorApp";
         private Process _process;
-        private bool _appIsRunning;
 
         public IWebDriver Driver { get; }
 
@@ -46,7 +46,7 @@ namespace BlazorApp.UITests.Helpers
             StartLatestAppVersion();
         }
 
-        private void StartLatestAppVersion(int retryCount = 300)
+        private void StartLatestAppVersion(int numberOfRetries = 30)
         {
             _process = new Process
             {
@@ -61,19 +61,35 @@ namespace BlazorApp.UITests.Helpers
             
             _process.Start();
 
-            var standardOutput = new StringBuilder();
-            while (!_appIsRunning)
+            for (var retryCount = 1; retryCount < numberOfRetries; retryCount++)
             {
-                var output = _process.StandardOutput.ReadLine();
-                _appIsRunning = output?.Contains("Application started") ?? false;
-                standardOutput.AppendLine(output);
+                var appIsRunning = CheckIfAppIsRunning();
 
-                retryCount--;
-                if (retryCount==0)
-                    throw new TimeoutException($"Unable to start webapp. Server output:{Environment.NewLine}{standardOutput}");
+                if (appIsRunning)
+                    return;
 
-                Thread.Sleep(100);
+                Console.WriteLine($"Checking if app is running ({retryCount}/{numberOfRetries}).");
             }
+
+            Dispose();
+            throw new TimeoutException($"Unable to start webapp. After {numberOfRetries} checks the process was terminated.");
+        }
+
+        private static bool CheckIfAppIsRunning()
+        {
+            var client = new HttpClient();
+            HttpResponseMessage checkingResponse;
+
+            try
+            {
+                checkingResponse = client.GetAsync("http://localhost:5000").Result;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+            return checkingResponse.IsSuccessStatusCode;
         }
 
         public void Dispose()

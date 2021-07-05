@@ -37,6 +37,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlazorApp.UITests\BlazorApp.UITests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Features\Counter.feature.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
