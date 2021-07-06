@@ -40,8 +40,6 @@ namespace BlazorApp.UITests.Helpers
 
         private static ChromeDriver BuildChromeDriver()
         {
-            var service = ChromeDriverService.CreateDefaultService();
-            service.Port = 5000;
             var options = new ChromeOptions();
             options.AddArgument("start-maximized");
             options.AddArgument("disable-infobars");
@@ -50,7 +48,7 @@ namespace BlazorApp.UITests.Helpers
             options.AddArgument("--disable-dev-shm-usage");
             options.AddArgument("--disable-gpu");
             options.AddArgument("--headless");
-            return new ChromeDriver(service, options);
+            return new ChromeDriver(options);
         }
 
         private void StartLatestAppVersion(int numberOfRetries = 30)
