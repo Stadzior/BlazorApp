@@ -32,6 +32,7 @@ jobs:
     - name: Open port 5000
       run: |
         sudo ufw allow 5000
+        dotnet run --no-build --project /BuildApp
         ping localhost:5000
         ping 127.0.0.1:5000
     - name: Run UI Tests
