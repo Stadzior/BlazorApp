@@ -73,7 +73,6 @@ namespace BlazorApp.UITests.Helpers
                 Console.WriteLine(file);
 
             _process.Start();
-            Thread.Sleep(30000);
             for (var retryCount = 1; retryCount < numberOfRetries+1; retryCount++)
             {
                 var appIsRunning = CheckIfAppIsRunning();
@@ -82,6 +81,7 @@ namespace BlazorApp.UITests.Helpers
                     return;
 
                 Console.WriteLine($"Checking if app is running ({retryCount}/{numberOfRetries}).");
+                Thread.Sleep(1000);
             }
 
             Dispose();
