@@ -1,6 +1,5 @@
 ﻿using BlazorApp.UITests.Enums;
 using BlazorApp.UITests.Helpers;
-using BlazorApp.UITests.Extensions;
 using FluentAssertions;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
@@ -43,7 +42,7 @@ namespace BlazorApp.UISpecs.Steps
                 _ => ""
             };
             
-            _session.Driver.FindElement(By.Id(linkAutomationId), 10).Click();
+            _session.Driver.FindElement(By.Id(linkAutomationId)).Click();
         }
 
         [When(@"the user clicks ""(.*)"" button")]
@@ -57,13 +56,13 @@ namespace BlazorApp.UISpecs.Steps
                 _ => ""
             };
 
-            _session.Driver.FindElement(By.Id(linkAutomationId), 10).Click();
+            _session.Driver.FindElement(By.Id(linkAutomationId)).Click();
         }
 
         [Then(@"the counter value should be (\d+)")]
         public void ThenTheCounterValueShouldBe(int expectedValue)
         {
-            _session.Driver.FindElement(By.Id("counter_value"), 10).Text.Should().Be($"Current count: {expectedValue}");
+            _session.Driver.FindElement(By.Id("counter_value")).Text.Should().Be($"Current count: {expectedValue}");
         }
     }
 }

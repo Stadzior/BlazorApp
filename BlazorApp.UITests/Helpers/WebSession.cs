@@ -48,7 +48,9 @@ namespace BlazorApp.UITests.Helpers
             options.AddArgument("--disable-dev-shm-usage");
             options.AddArgument("--disable-gpu");
             options.AddArgument("--headless");
-            return new ChromeDriver(options);
+            var driver = new ChromeDriver(options);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            return driver;
         }
 
         private void StartLatestAppVersion(int numberOfRetries = 30)
