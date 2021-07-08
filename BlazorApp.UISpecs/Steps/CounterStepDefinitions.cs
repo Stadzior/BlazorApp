@@ -61,7 +61,7 @@ namespace BlazorApp.UISpecs.Steps
         }
 
         [Then(@"the counter value should be (\d+)")]
-        public void ThenTheCounterValueShouldBeTo(int expectedValue)
+        public void ThenTheCounterValueShouldBe(int expectedValue)
         {
             _session.Driver.FindElement(By.Id("counter_value"), 10).Text.Should().Be($"Current count: {expectedValue}");
         }
