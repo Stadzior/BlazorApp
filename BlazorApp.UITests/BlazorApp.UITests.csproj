@@ -14,8 +14,4 @@
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="91.0.4472.10100" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\BlazorApp\BlazorApp.csproj" />
-  </ItemGroup>
 </Project>
