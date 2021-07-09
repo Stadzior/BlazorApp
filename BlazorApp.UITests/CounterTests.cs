@@ -1,3 +1,4 @@
+using System.Threading;
 using BlazorApp.UITests.Enums;
 using BlazorApp.UITests.Helpers;
 using FluentAssertions;
@@ -55,12 +56,18 @@ namespace BlazorApp.UITests
             using var session = new WebSession(BrowserType.Chrome);
 
             session.Driver.Navigate().GoToUrl("http://localhost:5000");
+            Thread.Sleep(2000);
             session.Driver.FindElement(By.Id("counter_menu_link")).Click();
+            Thread.Sleep(2000);
 
             var incrementCountButton = session.Driver.FindElement(By.Id("increment_count_button"));
+            Thread.Sleep(2000);
             incrementCountButton.Click();
+            Thread.Sleep(2000);
             incrementCountButton.Click();
+            Thread.Sleep(2000);
             session.Driver.FindElement(By.Id("reset_count_button")).Click();
+            Thread.Sleep(2000);
 
             session.Driver.FindElement(By.Id("counter_value")).Text.Should().Be("Current count: 0");
         }

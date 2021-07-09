@@ -36,3 +36,13 @@ Scenario: Increment counter twice and then Reset counter
 	And the user clicks "++" button
 	And the user clicks "Reset" button
 	Then the counter value should be 0
+
+@reset
+Scenario: Increment counter five times and then Reset counter
+	Given main page of the website is opened
+	When the user clicks "Counter" link from menu
+	And the user clicks "++" 5 times every 2 seconds
+	And the user waits for 2 seconds
+	And the user clicks "Reset" button
+	And the user waits for 2 seconds
+	Then the counter value should be 0

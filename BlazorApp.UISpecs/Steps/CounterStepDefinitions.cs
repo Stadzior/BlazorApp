@@ -1,4 +1,5 @@
-﻿using BlazorApp.UITests.Enums;
+﻿using System.Threading;
+using BlazorApp.UITests.Enums;
 using BlazorApp.UITests.Helpers;
 using FluentAssertions;
 using OpenQA.Selenium;
@@ -57,6 +58,30 @@ namespace BlazorApp.UISpecs.Steps
             };
 
             _session.Driver.FindElement(By.Id(linkAutomationId)).Click();
+        }
+
+        [When(@"the user clicks ""(.*)"" (\d+) times every (\d+) seconds")]
+        public void WhenTheUserClicksButtonNTimes(string buttonName, int clickCount, int seconds)
+        {
+            var linkAutomationId = buttonName switch
+            {
+                "++" => "increment_count_button",
+                "--" => "decrement_count_button",
+                "Reset" => "reset_count_button",
+                _ => ""
+            };
+
+            for (var i = 0; i<clickCount; i++)
+            {
+                _session.Driver.FindElement(By.Id(linkAutomationId)).Click();
+                Thread.Sleep(seconds*1000);
+            }
+        }
+
+        [When(@"the user waits for (\d+) seconds")]
+        public void WhenTheUserWaitsForNSeconds(int seconds)
+        {
+            Thread.Sleep(seconds*1000);
         }
 
         [Then(@"the counter value should be (\d+)")]
