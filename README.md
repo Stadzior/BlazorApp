@@ -84,4 +84,6 @@ dotnet add BlazorApp.UISpecs/BlazorApp.UISpecs.csproj package FluentAssertions
 dotnet sln BlazorApp.sln add BlazorApp.UISpecs/BlazorApp.UISpecs.csproj
 ```
 Now you can play with the project. 
+![Big smoke - all you need to do is to follow the damn instructions cj](https://github.com/Stadzior/BlazorApp/blob/master/99f.jpg)
+
 ### Full project with tests and configured github actions pipeline is available in this repo for reference.
