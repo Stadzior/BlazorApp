@@ -1,6 +1,7 @@
 ﻿using System.Threading;
 using BlazorApp.UITests.Enums;
 using BlazorApp.UITests.Helpers;
+using BlazorApp.UITests.PageObjects;
 using FluentAssertions;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
@@ -10,16 +11,20 @@ namespace BlazorApp.UISpecs.Steps
     [Binding]
     public sealed class CounterStepDefinitions
     {
-        private static WebSession _session;
+        private WebSession _session;
+        private HomePage _homePage;
+        private CounterPage _counterPage;
             
         [BeforeScenario]
-        public static void InitializeSession()
+        public void InitializeSession()
         {
             _session = new WebSession(BrowserType.Chrome);
+            _homePage = new HomePage(_session.Driver);
+            _counterPage = new CounterPage(_session.Driver);
         }
 
         [AfterScenario]
-        public static void DisposeSession()
+        public void DisposeSession()
         {
             _session.Dispose();
         }
@@ -33,47 +38,32 @@ namespace BlazorApp.UISpecs.Steps
         [When(@"the user clicks ""(.*)"" link from menu")]
         public void WhenTheUserClicksLinkFromMenu(string linkName)
         {
-            var linkAutomationId = linkName switch
-            {
-                "Home" => "home_menu_link",
-                "Counter" => "counter_menu_link",
-                "FetchData" => "fetchdata_menu_link",
-                "CompoundInterest" => "compoundinterest_menu_link",
-                "JsInterop" => "jsinterop_menu_link",
-                _ => ""
-            };
-            
-            _session.Driver.FindElement(By.Id(linkAutomationId)).Click();
+            _homePage.NavigateTo(linkName);
         }
 
         [When(@"the user clicks ""(.*)"" button")]
         public void WhenTheUserClicksButton(string buttonName)
         {
-            var linkAutomationId = buttonName switch
+            switch (buttonName)
             {
-                "++" => "increment_count_button",
-                "--" => "decrement_count_button",
-                "Reset" => "reset_count_button",
-                _ => ""
+                case "++":
+                    _counterPage.IncrementCount();
+                    break;
+                case "--":
+                    _counterPage.DecrementCount();
+                    break;
+                case "Reset":
+                    _counterPage.ResetCount();
+                    break;
             };
-
-            _session.Driver.FindElement(By.Id(linkAutomationId)).Click();
         }
 
         [When(@"the user clicks ""(.*)"" (\d+) times every (\d+) seconds")]
         public void WhenTheUserClicksButtonNTimes(string buttonName, int clickCount, int seconds)
         {
-            var linkAutomationId = buttonName switch
+            for (var i = 0; i < clickCount; i++)
             {
-                "++" => "increment_count_button",
-                "--" => "decrement_count_button",
-                "Reset" => "reset_count_button",
-                _ => ""
-            };
-
-            for (var i = 0; i<clickCount; i++)
-            {
-                _session.Driver.FindElement(By.Id(linkAutomationId)).Click();
+                WhenTheUserClicksButton(buttonName);
                 Thread.Sleep(seconds*1000);
             }
         }
@@ -87,7 +77,7 @@ namespace BlazorApp.UISpecs.Steps
         [Then(@"the counter value should be (\d+)")]
         public void ThenTheCounterValueShouldBe(int expectedValue)
         {
-            _session.Driver.FindElement(By.Id("counter_value")).Text.Should().Be($"Current count: {expectedValue}");
+            _counterPage.CounterValue.Should().Be($"Current count: {expectedValue}");
         }
     }
 }
