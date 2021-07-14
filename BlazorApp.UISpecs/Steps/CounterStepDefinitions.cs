@@ -3,7 +3,6 @@ using BlazorApp.UITests.Enums;
 using BlazorApp.UITests.Helpers;
 using BlazorApp.UITests.PageObjects;
 using FluentAssertions;
-using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 
 namespace BlazorApp.UISpecs.Steps
