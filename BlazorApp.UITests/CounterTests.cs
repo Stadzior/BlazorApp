@@ -32,6 +32,8 @@ namespace BlazorApp.UITests
         {
             using var session = new WebSession(BrowserType.Chrome);
 
+            session.Driver.Navigate().GoToUrl("http://localhost:5000");
+
             var homePage = new HomePage(session.Driver);
             homePage.NavigateTo("Counter");
 

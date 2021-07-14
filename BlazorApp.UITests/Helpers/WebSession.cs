@@ -47,7 +47,7 @@ namespace BlazorApp.UITests.Helpers
             options.AddArgument("--no-sandbox");
             options.AddArgument("--disable-dev-shm-usage");
             options.AddArgument("--disable-gpu");
-            //options.AddArgument("--headless");
+            options.AddArgument("--headless");
             var driver = new ChromeDriver(options);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             return driver;
