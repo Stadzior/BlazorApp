@@ -60,7 +60,7 @@ namespace BlazorApp.UISpecs.Steps
         [When(@"the user clicks ""(.*)"" (\d+) times every (\d+) seconds")]
         public void WhenTheUserClicksButtonNTimes(string buttonName, int clickCount, int seconds)
         {
-            for (var i = 0; i < clickCount; i++)
+            for (var j = 0; j < clickCount; j++)
             {
                 WhenTheUserClicksButton(buttonName);
                 Thread.Sleep(seconds*1000);
